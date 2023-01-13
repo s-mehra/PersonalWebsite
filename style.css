@@ -2,14 +2,15 @@ body {
    background: #FFFFE3;
    color: #253A52;
    padding: 25px;
-   font-family: sans-serif; 
+   font-family: sans-serif;
+   max-width: 100rem;
 }
 
 h2 {
     font-size: 3rem;
 }
 
-img {
+.profile {
     width: 280px;
     margin-inline-end: 4rem;
     border-radius: 50%;
@@ -19,7 +20,8 @@ img {
     display:flex;
 }
 
-a {
+
+.btn{
     text-decoration: none;
     color: #FFFFE3;
     background-color: #1348DA;
@@ -30,3 +32,12 @@ a {
     border-radius: 1.25rem;
 }
 
+@media (max-width: 1024px) {
+    #about-me {
+        flex-direction: column;
+    }
+
+    article {
+        flex-direction: column;
+    }
+}
