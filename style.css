@@ -10,17 +10,18 @@ h2 {
 }
 
 img {
-    width: 320px;
+    width: 280px;
     margin-inline-end: 4rem;
+    border-radius: 50%;
 }
 
-section {
+section .about-me {
     display:flex;
 }
 
 a {
     text-decoration: none;
-    color:FFFFE3;
+    color: #FFFFE3;
     background-color: #1348DA;
     padding: 0 1rem;
     height: 2.5rem;
