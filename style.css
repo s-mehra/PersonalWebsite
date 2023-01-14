@@ -41,3 +41,38 @@ h2 {
         flex-direction: column;
     }
 }
+
+nav,
+section {
+  border-block-end: 1px solid var(--primary);
+}
+
+header {
+    background-color: #FFFFE3;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+header nav li {
+  display: inline;
+  margin-inline-start: 1rem;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: var(--primary);
+}
