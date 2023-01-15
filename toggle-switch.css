@@ -1,0 +1,36 @@
+.toggle-switch {
+    display: inline-flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 0.875 rem;
+    cursor: pointer;
+}
+
+.toggle-switch-border {
+    display: inline-flex;
+    align-items: center;
+    width: 60px;
+    height: 36px;
+    border: 1px solid #253A52;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-inline-start: 8px;
+}
+
+.toggle-switch input {
+    display: none;
+}
+
+.toggle-switch-dot {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #253A52;
+    transform: translate3d(3px, 0, 0);
+    transition: transform .1s ease-in-out;
+}
+
+.toggle-switch input:checked + * .toggle-switch-dot {
+    transform: translate3d(26px, 0, 0);
+}
