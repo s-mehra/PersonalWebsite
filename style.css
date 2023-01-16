@@ -45,10 +45,7 @@ h2 {
     }
 }
 
-nav,
-section {
-  border-block-end: 1px solid var(--primary);
-}
+
 
 header {
     background-color: #FFFFE3;
