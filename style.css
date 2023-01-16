@@ -20,6 +20,9 @@ h2 {
     display:flex;
 }
 
+.project-work, .project-work:visited, .project-work:hover, .project-work:active {
+  color: #1348DA;
+}
 
 .btn{
     text-decoration: none;
