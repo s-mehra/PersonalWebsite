@@ -10,15 +10,53 @@ h2 {
     font-size: 3rem;
 }
 
-.profile {
+img {
     width: 280px;
     margin-inline-end: 4rem;
-    border-radius: 50%;
+}
+
+img .profile {
+  border-radius: 50%;
 }
 
 #about-me {
     display:flex;
 }
+
+.projects {
+  padding-block-end: 3rem;
+}
+
+article {
+  display: flex;
+  padding: 3rem 0;
+}
+
+article strong {
+  font-style: italic;
+  font-weight: 600;
+}
+
+article h3 {
+  margin-block-start: 0;
+}
+
+article a {
+  font-weight: 700;
+  padding: 2rem 0;
+}
+
+article li {
+  margin-block-end: 0.5rem;
+}
+
+article .article-img {
+  width: 512px;
+  min-width: 512px;
+  margin-inline-start: 4rem;
+}
+
+
 
 .project-work, .project-work:visited, .project-work:hover, .project-work:active {
   color: #1348DA;
