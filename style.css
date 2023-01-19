@@ -132,6 +132,33 @@ header .controls {
   padding: 1rem 0;
 }
 
+#skills {
+  padding: 1rem 0;
+}
+
+#skills ul {
+  padding: 0;
+  width: 100%;
+}
+
+#skills ul li {
+  display: inline;
+  align-items: space-around;
+  margin: 0 2%;
+}
+
+.skill-list-item {
+  display: inline-flex;
+  flex-direction: column;
+  color: var(--primary);
+  text-decoration: none;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  align-items: center;
+}
+
+
+
 #contact-me {
   padding: 1rem 0;
   text-align: center;
@@ -149,10 +176,12 @@ header .controls {
   margin: 0 8%;
 }
 
+
+
 #contact-me a {
   display: inline-flex;
   flex-direction: column;
-  color: #253A52;
+  color: var(--primary);
   text-decoration: none;
   font-family: "Sora", sans-serif;
   font-weight: 700;
@@ -163,7 +192,7 @@ header .controls {
   margin: 3rem 0;
 }
 
-#contact-me .link-icon {
+#contact-me .icon {
   margin-block-start: 0.5rem;
   background: var(--link);
   color: var(--background);
