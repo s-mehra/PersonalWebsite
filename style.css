@@ -112,11 +112,55 @@ header nav li {
 
 header nav li a {
   text-decoration: none;
-  color: var(--primary);
+  color: #253A52;
 }
 
 header .controls {
   display: flex;
   justify-content: end;
   padding: 1rem 0;
+}
+
+#contact-me {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+#contact-me ul {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#contact-me ul li {
+  display: inline;
+  margin: 0 8%;
+}
+
+#contact-me a {
+  display: inline-flex;
+  flex-direction: column;
+  color: #253A52;
+  text-decoration: none;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  align-items: center;
+}
+
+#contact-me .copywright {
+  margin: 3rem 0;
+}
+
+#contact-me .link-icon {
+  margin-block-start: 0.5rem;
+  background: #1348DA;
+  color: #FFFFE3;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
 }
