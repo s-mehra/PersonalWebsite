@@ -12,7 +12,7 @@
     align-items: center;
     width: 60px;
     height: 36px;
-    border: 1px solid #253A52;
+    border: 1px solid var(--primary);
     border-radius: 20px;
     box-sizing: border-box;
     margin-inline-start: 8px;
@@ -26,7 +26,7 @@
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background: #253A52;
+    background: var(--primary);
     transform: translate3d(3px, 0, 0);
     transition: transform .1s ease-in-out;
 }

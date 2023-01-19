@@ -1,9 +1,21 @@
 body {
-   background: #FFFFE3;
-   color: #253A52;
+   background: var(--background);
+   color: var(--primary);
    padding: 25px;
    font-family: sans-serif;
    max-width: 100rem;
+
+   --dark-background: #253a52;
+  --dark-primary: #FFFFE3;
+  --dark-link: #A9FE75;
+
+  --light-background: #ffffe3;
+  --light-primary: #253a52;
+  --light-link: #1348da;
+
+  --background: var(--light-background);
+  --primary: var(--light-primary);
+  --link: var(--light-link);
 }
 
 h2 {
@@ -21,6 +33,7 @@ img .profile {
 
 #about-me {
     display:flex;
+    padding-bottom: 2rem;
 }
 
 .projects {
@@ -59,13 +72,13 @@ article .article-img {
 
 
 .project-work, .project-work:visited, .project-work:hover, .project-work:active {
-  color: #1348DA;
+  color: var(--link);
 }
 
 .btn{
     text-decoration: none;
-    color: #FFFFE3;
-    background-color: #1348DA;
+    color: var(--background);
+    background-color: var(--link);
     padding: 0 1rem;
     height: 2.5rem;
     display: inline-flex;
@@ -85,11 +98,9 @@ article .article-img {
 
 
 
-header {
-    background-color: #FFFFE3;
-    position: sticky;
-    top:0;
-    z-index: 999;
+nav,
+section {
+  border-block-end: 1px solid var(--primary);
 }
 
 header nav {
@@ -112,7 +123,7 @@ header nav li {
 
 header nav li a {
   text-decoration: none;
-  color: #253A52;
+  color: var(--primary);
 }
 
 header .controls {
@@ -154,8 +165,8 @@ header .controls {
 
 #contact-me .link-icon {
   margin-block-start: 0.5rem;
-  background: #1348DA;
-  color: #FFFFE3;
+  background: var(--link);
+  color: var(--background);
   width: 3rem;
   height: 3rem;
   border-radius: 1.5rem;
